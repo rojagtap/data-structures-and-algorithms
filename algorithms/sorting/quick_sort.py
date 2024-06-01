@@ -3,6 +3,11 @@
 # where the all the elements to the left of the pivot will be smaller than the pivot and vice versa
 # swaps values in-place
 def partition(arr, start, end):
+    """
+    for randomized quicksort:
+    pivotidx = random.randint(start, end)
+    arr[pivotidx], arr[end] = arr[end], arr[pivotidx]
+    """
     pivot = arr[end]
     left = start
     
