@@ -29,6 +29,10 @@ Check out language specific branches to use the corresponding implementation
 │   │   ├── heap_sort.cpp
 │   │   ├── merge_sort.cpp
 │   │   └── quick_sort.cpp
+│   ├── string
+│   │   └── pattern_matching
+│   │       ├── kmp.cpp
+│   │       └── rabinkarp.cpp
 │   └── tree
 │       └── traversal
 │           ├── inorder.cpp
