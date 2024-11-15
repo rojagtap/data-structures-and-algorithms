@@ -18,7 +18,7 @@ vector<int> compile_pattern(const string& pattern) {
         if (pattern[prefix_iter] == pattern[iter]) {
             lps[iter++] = ++prefix_iter;
         } else if (prefix_iter == 0) {
-            ++iter;            
+            ++iter;
         } else {
             prefix_iter = lps[prefix_iter - 1];
         }
