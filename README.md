@@ -32,7 +32,8 @@ Check out language specific branches to use the corresponding implementation
 │   ├── string
 │   │   └── pattern_matching
 │   │       ├── kmp.cpp
-│   │       └── rabinkarp.cpp
+│   │       ├── rabinkarp.cpp
+│   │       └── zfunction.cpp
 │   └── tree
 │       └── traversal
 │           ├── inorder.cpp
